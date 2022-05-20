@@ -1,4 +1,4 @@
-package controller;
+package com.neosoft.controller.EmployeeController;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Employee;
-import repository.EmployeeRepository;
-import service.EmployeeService;
+import com.neosoft.entity.Employee.Employee;
+import com.neosoft.repository.EmployeeRepository.EmployeeRepository;
+import com.neosoft.service.EmployeeService.EmployeeService;
 
 @RestController
 public class EmployeeController {

@@ -1,12 +1,12 @@
-package service;
+package com.neosoft.service.EmployeeService;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import entity.Employee;
-import repository.EmployeeRepository;
+import com.neosoft.entity.Employee.Employee;
+import com.neosoft.repository.EmployeeRepository.EmployeeRepository;
 
 @Service
 public class EmployeeService {
